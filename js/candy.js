@@ -1,5 +1,6 @@
 $("#coverbutton").click(function(){
-    $(".cover").fadeOut(800)
+    document.getElementById("cover").style.backgroundColor="rgba(0,0,0,0)";
+    $( ".welcomebutton" ).removeClass("welcomebuttonloaded");
 
     $( ".logo-top" ).addClass("nooffset");
     $( ".logo-bottom" ).addClass("nooffset");
@@ -14,6 +15,7 @@ function videosIn(){
     $( ".candyoffset-r" ).addClass("nooffset");
 }
 function bodyOnLoad(){
-    $( ".welcomebutton" ).addClass("welcomebuttonloaded");
-    $(".cover i").fadeOut(500)
+    setTimeout(function(){$( ".welcomebutton").addClass("welcomebuttonloaded");},800);
+    $("#loadingtext").fadeOut(500);
+    document.getElementById("cover").style.backgroundColor="rgba(0,0,0,0.6)";
 }
