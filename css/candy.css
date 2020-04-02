@@ -104,13 +104,15 @@ position: relative;
     padding: 0.5em;
     color: #000;
     transition: 0.5s ease-in-out;
+
+}
+.welcomebuttonloaded{
     animation: ease-in;
     animation-name: fadein;
     animation-delay: 0.5s;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
 }
-
 .welcomebutton:hover{
 
     background-color: #000;

@@ -13,3 +13,7 @@ function videosIn(){
     $( ".candyoffset-l" ).addClass("nooffset");
     $( ".candyoffset-r" ).addClass("nooffset");
 }
+function bodyOnLoad(){
+    $( ".welcomebutton" ).addClass("welcomebuttonloaded");
+    $(".cover i").fadeOut(500)
+}
