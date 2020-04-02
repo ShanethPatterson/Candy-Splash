@@ -1,3 +1,7 @@
+@keyframes fadein{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
 html{
     margin: 0px;
     height: 100%;
@@ -94,12 +98,17 @@ position: relative;
     z-index: 2;
 }
 .welcomebutton{
-
+    opacity: 0;
     border: #ffccfe 2px solid;
     background-color: #ffccfe;
     padding: 0.5em;
     color: #000;
     transition: 0.5s ease-in-out;
+    animation: ease-in;
+    animation-name: fadein;
+    animation-delay: 0.5s;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .welcomebutton:hover{
