@@ -1,0 +1,139 @@
+html{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    background-image: linear-gradient(rgb(0,0,0), rgba(36, 27, 35, 0.97));
+    background-attachment: fixed;
+    color: #ffccfe;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+.landing .logo{
+    text-align: center;
+
+}
+
+.landing{
+    height: 100%;
+}
+.landingrow{
+    padding-top: auto;
+    padding-bottom: auto;
+
+    vertical-align: center;
+}
+.video{
+    box-sizing: border-box; /* prevents extra width from being added */
+    text-align: center;
+    padding: 2em;
+}
+
+
+/* aspect ratio and positioning for responsive video */
+.embed-responsive {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 40%;
+}
+.video-l{
+    transition: 2s;
+    left: -100%;
+
+}
+.video-r{
+    transition: 2s;
+    left: 100%;
+
+}
+.nooffset{
+    left:0% !important;
+
+}
+.candyoffset-l{
+position: relative;
+    left:-50%;
+
+}
+.candyoffset-r{
+   left:50%;
+}
+.t15s{
+    transition: 1.2s;
+}
+.t2s{
+    transition: 1.7s;
+}
+.t25s{
+    transition: 2.2s;
+}
+.t3s{
+    transition: 2.7s;
+}
+.embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.cover{
+    position:fixed;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 20%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 2;
+}
+.welcomebutton{
+
+    border: #ffccfe 2px solid;
+    background-color: #ffccfe;
+    padding: 0.5em;
+    color: #000;
+    transition: 0.5s ease-in-out;
+}
+
+.welcomebutton:hover{
+
+    background-color: #000;
+    color: #ffccfe;
+
+}
+a:hover {
+    text-decoration: none;
+}
+.logo img{
+    transition: 0.5s;
+}
+.logo img:hover{
+
+}
+.logo-top{
+    display: block;
+    left: -180%;
+    position: relative;
+
+}
+.logo-bottom{
+    display: block;
+    left: 180%;
+    position: relative;
+
+}
+.cover i{
+    font-size: 2rem;
+    font-weight: 100;
+}
+.xslogos{
+    height: 0;
+    position: fixed;
+}
