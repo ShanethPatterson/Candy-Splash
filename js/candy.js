@@ -1,6 +1,6 @@
 $("#coverbutton").click(function(){
- //   document.getElementById("cover").style.backgroundColor="rgba(0,0,0,0)";
-  //  document.getElementbyId("cover").style.zIndex=-1;
+   document.getElementById("cover").style.backgroundColor="rgba(0,0,0,0)";
+   document.getElementById("cover").style.zIndex=-1;
     $(".cover").fadeOut(800);
     $( ".welcomebutton" ).removeClass("welcomebuttonloaded");
     $( ".logo-top" ).addClass("nooffset");
