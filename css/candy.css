@@ -41,6 +41,7 @@ body{
     overflow: hidden;
     height: 0;
     padding-bottom: 40%;
+    z-index: 2;
 }
 .video-l{
     transition: 2s;
