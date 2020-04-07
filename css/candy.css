@@ -31,7 +31,7 @@ body{
 .video{
     box-sizing: border-box; /* prevents extra width from being added */
     text-align: center;
-    padding: 2em;
+    /* padding: 2em; */
 }
 
 
