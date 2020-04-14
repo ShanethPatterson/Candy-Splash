@@ -199,3 +199,18 @@ a:hover {
     cursor: pointer;
     opacity: 40%;
 }
+
+@media (max-width: 991.98px) {
+    .video{
+        padding-top: 125px;
+    }
+    .candyoffset-l{
+        position: relative;
+        left:0% !important;
+
+    }
+    .candyoffset-r{
+        left:0% !important;
+    }
+
+}
