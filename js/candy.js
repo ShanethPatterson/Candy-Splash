@@ -18,9 +18,9 @@ function bodyOnLoad(){
     setTimeout(function(){$( ".welcomebutton").addClass("welcomebuttonloaded");},800);
     $("#loadingtext").fadeOut(500);
     //document.getElementById("cover").style.backgroundColor="rgba(0,0,0,0.6)";
-    createVideoFrames();
-}
 
+}
+createVideoFrames();
 function createVideoFrames() {
         var div, n,
             v = document.getElementsByClassName("youtube-player");
