@@ -200,6 +200,21 @@ a:hover {
     opacity: 40%;
 }
 
+.contact{
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 1.1em;
+}
+.contact a{
+    color: #ffccfe;
+}
+
+.contactmobile{
+    background-color: black;
+    width: 100%;
+}
+
 @media (max-width: 991.98px) {
     .video{
         padding-top: 150px;
